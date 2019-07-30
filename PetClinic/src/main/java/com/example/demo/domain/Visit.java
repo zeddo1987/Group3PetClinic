@@ -1,5 +1,4 @@
 package com.example.demo.domain;
-
 import java.time.LocalDate;
 
 import javax.persistence.Column;
@@ -8,6 +7,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 
 import org.springframework.format.annotation.DateTimeFormat;
+
 
 @Entity
 @Table(name = "visits")
